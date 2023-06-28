@@ -1,0 +1,68 @@
+.Contact {
+    height: calc(100vh - 135px);
+    max-height: 100%;
+    overflow: auto;
+
+
+}
+
+.resume-bold-title {
+    color: #aaabb0;
+    font-family: Oswald, sans-serif;
+    font-size: 250px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 5px;
+    opacity: .02;
+    position: fixed;
+    text-transform: uppercase;
+    top: 70px;
+    z-index: 1;
+}
+
+.contactPage {
+    min-height: calc(100vh - 165px);
+    padding: 100px 0;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactBox {
+    align-items: center;
+    background-color: #333646;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.contactBox .icon {
+    color: #aaabb0;
+    display: block;
+    font-size: 100px;
+    line-height: 1;
+}
+
+.contactBox .icon h2 {
+    color: #dfdfe1;
+    font-size: 44px;
+    font-weight: 300;
+
+}
+
+.contactBox a {
+    color: #aaabb0;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+
+
+}

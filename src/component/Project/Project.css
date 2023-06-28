@@ -1,0 +1,103 @@
+.prpject-bold-title {
+    color: #aaabb0;
+    font-family: Oswald, sans-serif;
+    font-size: 250px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 5px;
+    opacity: .02;
+    position: fixed;
+    text-transform: uppercase;
+    top: 70px;
+    z-index: 1;
+}
+
+.Project {
+
+    max-height: 100%;
+    overflow: auto;
+}
+
+
+.project-warp {
+    margin: 100px auto;
+    max-width: 850px;
+}
+
+
+
+.recent-project .title {
+    color: #dfdfe1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.project-show {
+    background-color: #333646;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-text {
+    padding: 50px;
+    width: 100%;
+}
+
+.project-text .head .role {
+    color: #aaabb0;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.project-text .head .tech {
+    color: #76777e;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.project-show::after {
+    background-color: #ffc25c;
+    content: "";
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 50px;
+    width: 3px;
+}
+
+.project-show .project-text .desc p {
+    color: #aaabb0;
+    display: block;
+    font-size: 14px;
+
+}
+
+.project-show .project-text .desc .action {
+
+    color: #ffc25c;
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: letter-spacing .3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.project-show .project-image {
+    min-width: 280px;
+    width: 280px;
+
+}
+
+.project-show .project-image img {
+    object-fit: cover;
+    height: 100%;
+}
