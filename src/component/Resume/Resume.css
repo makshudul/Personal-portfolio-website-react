@@ -52,6 +52,10 @@
     text-decoration: none;
 }
 
+.resume-wrap .resume-single-item {
+    margin-bottom: 80px;
+}
+
 .resume-wrap .resume-box {
     align-items: flex-start;
     background-color: #333646;
@@ -134,4 +138,67 @@
     position: absolute;
     top: 50px;
     width: 3px;
+}
+
+.resume-wrap .resume-half-box {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resume-wrap .resume-highlight {
+    min-width: 300px;
+}
+
+.resume-wrap .resume-highlight .highlight-head {
+    color: #dfdfe1;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.resume-wrap .resume-highlight .highlight-subhead {
+    color: #aaabb0;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.resume-wrap .resume-highlight span {
+    color: #aaabb0;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.resume-wrap .resume-box .skills-items {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+.resume-wrap .resume-box .skills-items .skills-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.resume-wrap .resume-box .skills-items .skills-item {
+    width: 32%;
+    margin-bottom: 50px;
+    margin-right: 5px;
+
+}
+
+.resume-wrap .resume-box .skills-items .skills-item p {
+    color: #76777e;
+    font-size: 13px;
+    margin-bottom: 12px;
+
 }

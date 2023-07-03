@@ -74,7 +74,150 @@ const Resume = () => {
                      </div>
                   </div>
                  </div>
-  
+                 <div className='resume-single-item'>
+                  <div className="resume-head">
+                    <h3>Educations</h3>
+                   </div>
+                   <div className='resume-half-box'>
+                     <div className='resume-box'>
+                       <div class="resume-highlight">
+                        <h2 class="highlight-head">Running</h2>
+                        <h5 class="highlight-subhead">Dhaka International University</h5>
+                        <span class="highlight-hint">Bachelor's degree</span>
+                        <span class="highlight-hint">Computer Science and Engineering</span>
+                        <span class="highlight-hint">Dhaka, Bangladesh</span>
+                        </div>
+                     </div>
+                     <div className='resume-box'>
+                       <div class="resume-highlight">
+                        <h2 class="highlight-head">2017-2018</h2>
+                        <h5 class="highlight-subhead">Bogura Polytechnic Institute</h5>
+                        <span class="highlight-hint">Diploma in Engineering</span>
+                        <span class="highlight-hint">Computer Science and Engineering</span>
+                        <span class="highlight-hint">Dhaka, Bangladesh</span>
+                        </div>
+                     </div>
+                  </div>
+                 </div>
+                 <div className='resume-single-item'>
+                  <div className="resume-head">
+                    <h3>Certifications</h3>
+                   </div>
+                   <div className='resume-half-box'>
+                     <div className='resume-box'>
+                       <div class="resume-highlight">
+                        <h2 class="highlight-head">Running</h2>
+                        <h5 class="highlight-subhead">Dhaka International University</h5>
+                        <span class="highlight-hint">Bachelor's degree</span>
+                        <span class="highlight-hint">Computer Science and Engineering</span>
+                        <span class="highlight-hint">Dhaka, Bangladesh</span>
+                        </div>
+                     </div>
+                     <div className='resume-box'>
+                       <div class="resume-highlight">
+                        <h2 class="highlight-head">2017-2018</h2>
+                        <h5 class="highlight-subhead">Bogura Polytechnic Institute</h5>
+                        <span class="highlight-hint">Diploma in Engineering</span>
+                        <span class="highlight-hint">Computer Science and Engineering</span>
+                        <span class="highlight-hint">Dhaka, Bangladesh</span>
+                        </div>
+                     </div>
+                     <div className='resume-box'>
+                       <div class="resume-highlight">
+                        <h2 class="highlight-head">2017-2018</h2>
+                        <h5 class="highlight-subhead">Bogura Polytechnic Institute</h5>
+                        <span class="highlight-hint">Diploma in Engineering</span>
+                        <span class="highlight-hint">Computer Science and Engineering</span>
+                        <span class="highlight-hint">Dhaka, Bangladesh</span>
+                        </div>
+                     </div>
+                     <div className='resume-box'>
+                       <div class="resume-highlight">
+                        <h2 class="highlight-head">2017-2018</h2>
+                        <h5 class="highlight-subhead">Bogura Polytechnic Institute</h5>
+                        <span class="highlight-hint">Diploma in Engineering</span>
+                        <span class="highlight-hint">Computer Science and Engineering</span>
+                        <span class="highlight-hint">Dhaka, Bangladesh</span>
+                        </div>
+                     </div>
+                  </div>
+                 </div>
+                 <div className='resume-single-item'>
+                  <div className="resume-head">
+                    <h3>Skills & Expertise</h3>
+                    </div>
+                  <div className='resume-box'>
+                     <div className='skills-items'>
+                                <div className="skills-item">
+                                    <p>// Language</p>
+                                    <ul>
+                                        <li>
+                                           <span>JavaScript</span>
+                                        </li>
+                                        <li>
+                                           <span>HTML</span>
+                                        </li>
+                                        <li>
+                                           <span>CSS</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="skills-item">
+                                    <p>// JS library & frameworks</p>
+                                    <ul>
+                                      <li>React</li>
+                                      <li>jQuery</li>
+                                      <li>jQuery UI</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-item">
+                                    <p>// Frameworks</p>
+                                    <ul>
+                                      <li>Bootstrap 5</li>
+                                      <li>Tailwind CSS</li>
+                                      <li>React Bootstrap</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-item">
+                                    <p>// Design tools</p>
+                                    <ul>
+                                      <li>Figma</li>
+                                      <li>Photoshop</li>
+                                      <li>Adobe XD</li>
+                                      <li>Illustrator</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-item">
+                                    <p>//  Code editors</p>
+                                    <ul>
+                                      <li>WebStorm</li>
+                                      <li>Phpstorm</li>
+                                      <li>Intellij Idea</li>
+                                      <li>VS Code</li>
+                                      <li>Atom</li>
+                                      <li>Sublime text</li>
+                                      <li>Notepad++</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-item">
+                                    <p>// Tools</p>
+                                    <ul>
+                                      <li>GitHub</li>
+                                      <li>Git</li>
+                                    </ul>
+                                </div>
+                                <div className="skills-item">
+                                    <p>// Basic working knowledge</p>
+                                    <ul>
+                                      <li>WordPress</li>
+                                      <li>Laravel</li>
+                                      <li>PHP</li>
+                                      <li>MySQL</li>
+                                    </ul>
+                                </div>
+                     </div>
+                  </div>
+                 </div>
                </div>
              </div>
             </div>
